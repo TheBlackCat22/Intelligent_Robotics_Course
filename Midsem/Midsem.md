@@ -86,3 +86,9 @@ All Together:
 ## Q4
 Parameters Used:  α = 50, β = 50, s = 7, r = 2
 ![](imgs/Q4_1.png)
+
+## Q5
+My solution to the Pursuer Evader Problem was using the Art gallery Theorem to find the lest number of points which have complete visibility of the entire environment. With 2 pursuers we can occupy more of these points than if we had only 1 pursuer. So, we can see a lot more area with 2 pursuers. Thus 2 pursuers are better than 1.
+
+## Q6
+To ensure both pursuers dont collide, we will implement an obstacle avoidance algorithm like bug2 where in both the robots take a right turn whenever they encounter an obstacle. This ensures than when both bots are going to collide, they start moving in a circular pattern and reach their goal.
